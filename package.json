@@ -50,6 +50,7 @@
     "@stdlib/math-base-special-roundn": "^0.0.x",
     "@stdlib/stats-base-dists-f-cdf": "^0.0.x",
     "@stdlib/stats-incr-stdev": "^0.0.x",
+    "@stdlib/string-format": "^0.0.x",
     "@stdlib/string-repeat": "^0.0.x",
     "@stdlib/types": "^0.0.x",
     "@stdlib/utils-copy": "^0.0.x",
