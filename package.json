@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/stats-anova1",
-  "version": "0.0.0",
+  "version": "0.0.7",
   "description": "Perform a one-way analysis of variance.",
   "license": "Apache-2.0",
   "author": {
