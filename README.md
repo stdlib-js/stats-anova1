@@ -24,14 +24,30 @@ limitations under the License.
 
 > Perform a one-way analysis of variance.
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/stats-anova1
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-import anova1 from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-anova1@esm/index.mjs';
+var anova1 = require( '@stdlib/stats-anova1' );
 ```
 
 #### anova1( x, factor\[, opts] )
@@ -164,13 +180,8 @@ table = out.print();
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="module">
-
-import anova1 from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-anova1@esm/index.mjs';
+```javascript
+var anova1 = require( '@stdlib/stats-anova1' );
 
 var x = [ 3, 4, 5, 6, 2, 5, 10, 12, 8, 10 ];
 var f = [ 'control', 'treatA', 'treatB', 'control', 'treatA', 'treatB', 'control', 'treatA', 'treatB', 'control' ];
@@ -186,10 +197,6 @@ out = anova1( x, f, {
 });
 
 console.log( out.print() );
-
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -213,7 +220,7 @@ console.log( out.print() );
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -269,6 +276,7 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 [deno-url]: https://github.com/stdlib-js/stats-anova1/tree/deno
 [umd-url]: https://github.com/stdlib-js/stats-anova1/tree/umd
 [esm-url]: https://github.com/stdlib-js/stats-anova1/tree/esm
+[branches-url]: https://github.com/stdlib-js/stats-anova1/blob/main/branches.md
 
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/stats-anova1/main/LICENSE
 
