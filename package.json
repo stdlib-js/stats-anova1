@@ -3,8 +3,31 @@
   "version": "0.0.7",
   "description": "Perform a one-way analysis of variance.",
   "license": "Apache-2.0",
-  "type": "module",
-  "main": "./mod.js",
+  "author": {
+    "name": "The Stdlib Authors",
+    "url": "https://github.com/stdlib-js/stdlib/graphs/contributors"
+  },
+  "contributors": [
+    {
+      "name": "The Stdlib Authors",
+      "url": "https://github.com/stdlib-js/stdlib/graphs/contributors"
+    }
+  ],
+  "main": "./lib",
+  "directories": {
+    "benchmark": "./benchmark",
+    "doc": "./docs",
+    "example": "./examples",
+    "lib": "./lib",
+    "test": "./test"
+  },
+  "types": "./docs/types",
+  "scripts": {
+    "test": "make test",
+    "test-cov": "make test-cov",
+    "examples": "make examples",
+    "benchmark": "make benchmark"
+  },
   "homepage": "https://stdlib.io",
   "repository": {
     "type": "git",
@@ -13,6 +36,52 @@
   "bugs": {
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
+  "dependencies": {
+    "@stdlib/assert-has-own-property": "^0.0.x",
+    "@stdlib/assert-is-array": "^0.0.x",
+    "@stdlib/assert-is-boolean": "^0.0.x",
+    "@stdlib/assert-is-nan": "^0.0.x",
+    "@stdlib/assert-is-number": "^0.0.x",
+    "@stdlib/assert-is-number-array": "^0.0.x",
+    "@stdlib/assert-is-plain-object": "^0.0.x",
+    "@stdlib/assert-is-positive-integer": "^0.0.x",
+    "@stdlib/assert-is-typed-array-like": "^0.0.x",
+    "@stdlib/math-base-special-max": "^0.0.x",
+    "@stdlib/math-base-special-roundn": "^0.0.x",
+    "@stdlib/stats-base-dists-f-cdf": "^0.0.x",
+    "@stdlib/stats-incr-stdev": "^0.0.x",
+    "@stdlib/error-tools-fmtprodmsg": "^0.0.x",
+    "@stdlib/string-repeat": "^0.0.x",
+    "@stdlib/types": "^0.0.x",
+    "@stdlib/utils-copy": "^0.0.x",
+    "@stdlib/utils-define-read-only-property": "^0.0.x"
+  },
+  "devDependencies": {
+    "@stdlib/assert-contains": "^0.0.x",
+    "@stdlib/assert-is-object": "^0.0.x",
+    "@stdlib/assert-is-string": "^0.0.x",
+    "@stdlib/bench": "^0.0.x",
+    "@stdlib/random-base-discrete-uniform": "^0.0.x",
+    "@stdlib/random-base-randu": "^0.0.x",
+    "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
+    "istanbul": "^0.4.1",
+    "tap-min": "2.x.x"
+  },
+  "engines": {
+    "node": ">=0.10.0",
+    "npm": ">2.7.0"
+  },
+  "os": [
+    "aix",
+    "darwin",
+    "freebsd",
+    "linux",
+    "macos",
+    "openbsd",
+    "sunos",
+    "win32",
+    "windows"
+  ],
   "keywords": [
     "stdlib",
     "stdmath",
