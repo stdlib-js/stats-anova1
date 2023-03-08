@@ -50,7 +50,7 @@
     "@stdlib/math-base-special-roundn": "^0.0.6",
     "@stdlib/stats-base-dists-f-cdf": "^0.0.7",
     "@stdlib/stats-incr-stdev": "^0.0.7",
-    "@stdlib/string-format": "^0.0.3",
+    "@stdlib/error-tools-fmtprodmsg": "^0.0.2",
     "@stdlib/string-repeat": "^0.0.9",
     "@stdlib/types": "^0.0.14",
     "@stdlib/utils-define-read-only-property": "^0.0.8"
