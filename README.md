@@ -24,38 +24,30 @@ limitations under the License.
 
 > Perform a one-way analysis of variance.
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/stats-anova1
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
-To use in Observable,
-
 ```javascript
-anova1 = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-anova1@umd/browser.js' )
-```
-
-To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
-
-```javascript
-var anova1 = require( 'path/to/vendor/umd/stats-anova1/index.js' )
-```
-
-To include the bundle in a webpage,
-
-```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-anova1@umd/browser.js"></script>
-```
-
-If no recognized module system is present, access bundle contents via the global scope:
-
-```html
-<script type="text/javascript">
-(function () {
-    window.anova1;
-})();
-</script>
+var anova1 = require( '@stdlib/stats-anova1' );
 ```
 
 #### anova1( x, factor\[, opts] )
@@ -64,10 +56,14 @@ For an [array][mdn-array] or [typed array][mdn-typed-array] of numeric values `x
 
 <!-- <equation class="equation" label="eq:hypotheses" align="center" raw="\begin{align*} H_{0}:& \; \mu_{1} = \mu_{2} = \dots = \mu_{k} \\ H_{a}:& \; \text{at least one} \; \mu_{i} \; \text{not equal to the others} \end{align*}" alt="Hypotheses of ANOVA"> -->
 
-<div class="equation" align="center" data-raw-text="\begin{align*} H_{0}:&amp; \; \mu_{1} = \mu_{2} = \dots = \mu_{k} \\ H_{a}:&amp; \; \text{at least one} \; \mu_{i} \; \text{not equal to the others} \end{align*}" data-equation="eq:hypotheses">
+```math
+\begin{align*} H_{0}:& \; \mu_{1} = \mu_{2} = \dots = \mu_{k} \\ H_{a}:& \; \text{at least one} \; \mu_{i} \; \text{not equal to the others} \end{align*}
+```
+
+<!-- <div class="equation" align="center" data-raw-text="\begin{align*} H_{0}:&amp; \; \mu_{1} = \mu_{2} = \dots = \mu_{k} \\ H_{a}:&amp; \; \text{at least one} \; \mu_{i} \; \text{not equal to the others} \end{align*}" data-equation="eq:hypotheses">
     <img src="https://cdn.jsdelivr.net/gh/stdlib-js/stdlib@7e0a95722efd9c771b129597380c63dc6715508b/lib/node_modules/@stdlib/stats/anova1/docs/img/equation_hypotheses.svg" alt="Hypotheses of ANOVA">
     <br>
-</div>
+</div> -->
 
 <!-- </equation> -->
 
@@ -188,13 +184,8 @@ table = out.print();
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-anova1@umd/browser.js"></script>
-<script type="text/javascript">
-(function () {
+```javascript
+var anova1 = require( '@stdlib/stats-anova1' );
 
 var x = [ 3, 4, 5, 6, 2, 5, 10, 12, 8, 10 ];
 var f = [ 'control', 'treatA', 'treatB', 'control', 'treatA', 'treatB', 'control', 'treatA', 'treatB', 'control' ];
@@ -210,11 +201,6 @@ out = anova1( x, f, {
 });
 
 console.log( out.print() );
-
-})();
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -282,7 +268,7 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 -->
 
 [chat-image]: https://img.shields.io/gitter/room/stdlib-js/stdlib.svg
-[chat-url]: https://gitter.im/stdlib-js/stdlib/
+[chat-url]: https://app.gitter.im/#/room/#stdlib-js_stdlib:gitter.im
 
 [stdlib]: https://github.com/stdlib-js/stdlib
 
