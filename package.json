@@ -60,8 +60,8 @@
     "@stdlib/assert-is-object": "^0.1.0",
     "@stdlib/assert-is-string": "^0.1.0",
     "@stdlib/bench": "^0.1.0",
-    "@stdlib/random-base-discrete-uniform": "^0.0.6",
-    "@stdlib/random-base-randu": "^0.0.8",
+    "@stdlib/random-base-discrete-uniform": "^0.1.0",
+    "@stdlib/random-base-randu": "^0.1.0",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
     "istanbul": "^0.4.1",
     "tap-min": "git+https://github.com/Planeshifter/tap-min.git"
