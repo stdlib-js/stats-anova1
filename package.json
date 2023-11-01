@@ -49,7 +49,7 @@
     "@stdlib/math-base-special-max": "^0.1.1",
     "@stdlib/math-base-special-roundn": "^0.1.0",
     "@stdlib/stats-base-dists-f-cdf": "^0.1.0",
-    "@stdlib/stats-incr-stdev": "^0.1.0",
+    "@stdlib/stats-incr-stdev": "^0.1.1",
     "@stdlib/string-format": "^0.1.1",
     "@stdlib/string-repeat": "^0.1.0",
     "@stdlib/types": "^0.1.0",
