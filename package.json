@@ -52,14 +52,14 @@
     "@stdlib/stats-incr-stdev": "^0.1.1",
     "@stdlib/string-format": "^0.1.1",
     "@stdlib/string-repeat": "^0.1.0",
-    "@stdlib/types": "^0.1.0",
+    "@stdlib/types": "^0.2.0",
     "@stdlib/utils-define-read-only-property": "^0.1.1"
   },
   "devDependencies": {
     "@stdlib/assert-contains": "^0.1.0",
     "@stdlib/assert-is-object": "^0.1.1",
     "@stdlib/assert-is-string": "^0.1.1",
-    "@stdlib/bench": "^0.1.0",
+    "@stdlib/bench": "^0.2.1",
     "@stdlib/random-base-discrete-uniform": "^0.1.0",
     "@stdlib/random-base-randu": "^0.1.0",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
