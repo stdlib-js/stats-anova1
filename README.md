@@ -42,6 +42,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import anova1 from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-anova1@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/stats-anova1/tags). For example,
+
+```javascript
 import anova1 from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-anova1@v0.2.0-deno/mod.js';
 ```
 
@@ -180,7 +185,7 @@ table = out.print();
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import anova1 from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-anova1@v0.2.0-deno/mod.js';
+import anova1 from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-anova1@deno/mod.js';
 
 var x = [ 3, 4, 5, 6, 2, 5, 10, 12, 8, 10 ];
 var f = [ 'control', 'treatA', 'treatB', 'control', 'treatA', 'treatB', 'control', 'treatA', 'treatB', 'control' ];
