@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import anova1 from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-anova1@deno/mod.js';
+import anova1 from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-anova1@v0.2.0-deno/mod.js';
 ```
 
 #### anova1( x, factor\[, opts] )
@@ -180,7 +180,7 @@ table = out.print();
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import anova1 from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-anova1@deno/mod.js';
+import anova1 from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-anova1@v0.2.0-deno/mod.js';
 
 var x = [ 3, 4, 5, 6, 2, 5, 10, 12, 8, 10 ];
 var f = [ 'control', 'treatA', 'treatB', 'control', 'treatA', 'treatB', 'control', 'treatA', 'treatB', 'control' ];
