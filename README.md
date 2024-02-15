@@ -44,6 +44,11 @@ limitations under the License.
 To use in Observable,
 
 ```javascript
+anova1 = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-anova1@umd/browser.js' )
+```
+The previous example will load the latest bundled code from the umd branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/stats-anova1/tags). For example,
+
+```javascript
 anova1 = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-anova1@v0.2.0-umd/browser.js' )
 ```
 
@@ -56,7 +61,7 @@ var anova1 = require( 'path/to/vendor/umd/stats-anova1/index.js' )
 To include the bundle in a webpage,
 
 ```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-anova1@v0.2.0-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-anova1@umd/browser.js"></script>
 ```
 
 If no recognized module system is present, access bundle contents via the global scope:
@@ -207,7 +212,7 @@ table = out.print();
 <!DOCTYPE html>
 <html lang="en">
 <body>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-anova1@v0.2.0-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-anova1@umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
 
