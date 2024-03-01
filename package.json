@@ -53,14 +53,15 @@
     "@stdlib/string-format": "^0.2.1",
     "@stdlib/string-repeat": "^0.2.1",
     "@stdlib/types": "^0.3.2",
-    "@stdlib/utils-define-read-only-property": "^0.2.1"
+    "@stdlib/utils-define-read-only-property": "^0.2.1",
+    "@stdlib/error-tools-fmtprodmsg": "^0.2.1"
   },
   "devDependencies": {
     "@stdlib/assert-contains": "^0.2.1",
     "@stdlib/assert-is-object": "^0.2.1",
     "@stdlib/assert-is-string": "^0.2.1",
-    "@stdlib/random-base-discrete-uniform": "^0.2.0",
-    "@stdlib/random-base-randu": "^0.2.0",
+    "@stdlib/random-base-discrete-uniform": "^0.2.1",
+    "@stdlib/random-base-randu": "^0.2.1",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
     "istanbul": "^0.4.1",
     "tap-min": "git+https://github.com/Planeshifter/tap-min.git",
