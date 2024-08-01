@@ -48,7 +48,7 @@
     "@stdlib/assert-is-typed-array-like": "^0.2.2",
     "@stdlib/math-base-special-max": "^0.3.0",
     "@stdlib/math-base-special-roundn": "^0.2.2",
-    "@stdlib/stats-base-dists-f-cdf": "^0.2.1",
+    "@stdlib/stats-base-dists-f-cdf": "^0.2.2",
     "@stdlib/stats-incr-stdev": "^0.2.2",
     "@stdlib/string-format": "^0.2.2",
     "@stdlib/string-repeat": "^0.2.2",
