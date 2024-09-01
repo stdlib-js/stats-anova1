@@ -52,7 +52,7 @@
     "@stdlib/stats-incr-stdev": "^0.2.2",
     "@stdlib/string-format": "^0.2.2",
     "@stdlib/string-repeat": "^0.2.2",
-    "@stdlib/types": "^0.3.2",
+    "@stdlib/types": "^0.4.1",
     "@stdlib/utils-define-read-only-property": "^0.2.2",
     "@stdlib/error-tools-fmtprodmsg": "^0.2.2"
   },
