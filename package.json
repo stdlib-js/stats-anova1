@@ -57,6 +57,7 @@
     "@stdlib/error-tools-fmtprodmsg": "^0.2.2"
   },
   "devDependencies": {
+    "@stdlib/array-base-zeros": "^0.2.2",
     "@stdlib/assert-contains": "^0.2.2",
     "@stdlib/assert-is-object": "^0.2.2",
     "@stdlib/assert-is-string": "^0.2.2",
