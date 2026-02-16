@@ -12,6 +12,7 @@
 
 <details>
 
+-   [`33e3d9f`](https://github.com/stdlib-js/stdlib/commit/33e3d9f96ce3fc32b31dd3f46a017c92b73b0425) - **chore:** minor clean-up _(by Philipp Burckhardt)_
 -   [`5ae946b`](https://github.com/stdlib-js/stdlib/commit/5ae946bda58f813e9ed23610719f395416985c88) - **bench:** update array initialisation and refactor to use string interpolation in `stats/anova1` [(#10199)](https://github.com/stdlib-js/stdlib/pull/10199) _(by Shubham)_
 
 </details>
@@ -24,8 +25,9 @@
 
 ### Contributors
 
-A total of 1 person contributed to this release. Thank you to this contributor:
+A total of 2 people contributed to this release. Thank you to the following contributors:
 
+-   Philipp Burckhardt
 -   Shubham
 
 </section>
