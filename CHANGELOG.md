@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-02-16)
+## Unreleased (2026-02-25)
 
 <section class="commits">
 
@@ -12,6 +12,7 @@
 
 <details>
 
+-   [`10cd4eb`](https://github.com/stdlib-js/stdlib/commit/10cd4ebe76e9d71bf4de1807716e1cc9ff5edf79) - **style:** add spaces and use leading slash in relative require _(by Philipp Burckhardt)_
 -   [`33e3d9f`](https://github.com/stdlib-js/stdlib/commit/33e3d9f96ce3fc32b31dd3f46a017c92b73b0425) - **chore:** minor clean-up _(by Philipp Burckhardt)_
 -   [`5ae946b`](https://github.com/stdlib-js/stdlib/commit/5ae946bda58f813e9ed23610719f395416985c88) - **bench:** update array initialisation and refactor to use string interpolation in `stats/anova1` [(#10199)](https://github.com/stdlib-js/stdlib/pull/10199) _(by Shubham)_
 
